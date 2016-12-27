@@ -1,0 +1,83 @@
+.sphinxsearch {
+	display: none;
+	width:100%;
+	position: absolute;
+	top: 40px;
+	right: 0;
+	background: #fff;
+	line-height: 1.2;
+	z-index: 9999999;
+	border: 1px solid #ccc;
+	border-top: 0;
+	border-radius: 5px;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+.sphinx-product, .sphinx-product-cat {
+	min-height: 40px;
+	border-bottom: 1px solid #e9e9e9;
+	color: #000;
+	display: block;
+	font-size: 11px;
+	font-weight: normal;
+	padding: 5px;
+	text-decoration: none;
+	line-height: 38px;
+}
+
+@media(min-width: 992px) and (max-width: 1200px){
+	.sphinxsearch{
+		width: 101%;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.sphinxsearch{
+		width: 102%;
+	}
+}
+@media (max-width: 767px){
+	.sphinxsearch{
+		width: 100%;
+		top:30px;
+	}
+	.sphinx-product {
+		line-height: 18px;
+	}
+}
+#search, .searchbox {
+	overflow: visible;
+	z-index: 1;
+}
+
+.sphinxsearch .categories span,
+.sphinxsearch .products span {
+	text-align: center;
+	display: block;
+	padding: 10px 0;
+	background: #eee;
+	font-size: 14px;
+}
+
+
+.sphinx-product-cat {
+	line-height: 40px;
+	text-transform: uppercase;
+	text-indent: 10px;
+}
+
+.sphinx-product img, .sphinx-product-cat img {
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.sphinx-product strong {
+	font-size: 13px;
+	margin: 5px 5px 5px 0;
+}
+
+.sphinx-viewall {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}

@@ -1,0 +1,1 @@
+<a id="cart" href="<?php echo $cart;?>" data-loading-text="<?php echo $text_loading; ?>"><i class="fa fa-shopping-cart"></i><span id="cart-total"><?php echo $text_items; ?></span></a>
